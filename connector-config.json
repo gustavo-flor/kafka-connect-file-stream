@@ -1,0 +1,9 @@
+{
+  "name": "file-stream-sink-connector",
+  "config": {
+    "connector.class": "com.github.gustavoflor.kafkaconnectfilestream.FileStreamSinkConnector",
+    "filename": "messages.txt",
+    "tasks.max": "1",
+    "topics": "some-topic"
+  }
+}
