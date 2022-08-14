@@ -48,7 +48,7 @@ docker exec -it kafka kafka-console-producer --bootstrap-server localhost:19092 
 Now write some messages and sent to Kafka topic, after that open another tab on terminal and execute these commands:
 
 ```bash
-docker exec --it kafka-connect bash
+docker exec -it kafka-connect bash
 ```
 
 ```bash
